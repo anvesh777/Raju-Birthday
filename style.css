@@ -4,10 +4,12 @@ div
 	margin: 0;
 	padding: 0;
 }
+@font-face { font-family: raleway; src: url("Raleway-Bold.ttf");}
 #wrap
 {
 	width: auto;
-	height: auto;
+	height: 650px;
+	padding-top: 25px;
 	background-color: rgb(44, 62, 80);
 }
 #im
@@ -22,7 +24,11 @@ div
 	height: auto;
 	width: auto;
 	margin:auto;
-	color: #E4F1FE;
-	font-family: Sertig;
+	color: #F7BD01;
+	font-family: raleway;
 	text-align: center;
+}
+h1:hover
+{
+	color: #FF0087;
 }
