@@ -2,17 +2,27 @@ div
 {
 	border: 0;
 	margin: 0;
+	padding: 0;
 }
-#top
+#wrap
 {
 	width: auto;
-	height: 200px;
-	background-color: #2ecc71;
+	height: auto;
+	background-color: rgb(44, 62, 80);
+}
+#im
+{
+	width: 1022px;
+	height: 378px;
+	margin: auto;
+	border: 10px solid rgb(34, 49, 63);
 }
 #bottom
 {
-	width: 600px;
-	height: 400px;
-	background-color: #3498db;
-	margin: -20px auto;
+	height: auto;
+	width: auto;
+	margin:auto;
+	color: #E4F1FE;
+	font-family: Sertig;
+	text-align: center;
 }
